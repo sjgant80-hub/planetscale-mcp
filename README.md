@@ -1,13 +1,19 @@
-# planetscale-mcp
+# planetscale MCP
 
-MCP server for **PlanetScale** · exposes 0 tools to Claude Code / Cursor / Cline.
+> Sovereign wrapper for target · real bindings
 
-## Install in Claude Code
-```bash
-claude mcp add planetscale npx -y @ai-native-solutions/planetscale-mcp
+## Install
+
+```
+claude mcp add planetscale -- npx -y @ai-native-solutions/planetscale-mcp
 ```
 
-## Env
-Set `PLANETSCALE_API_KEY` before use.
+## Links
 
-MIT · AI-Native Solutions estate.
+- FallMarket listing: https://sjgant80-hub.github.io/fallmarket/listing.html?id=planetscale-mcp
+- Source: https://github.com/sjgant80-hub/planetscale-mcp
+
+
+## License
+
+MIT · Copyright 2026 AI-Native Solutions · https://ai-nativesolutions.com

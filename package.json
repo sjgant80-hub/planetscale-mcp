@@ -1,25 +1,18 @@
 {
   "name": "@ai-native-solutions/planetscale-mcp",
   "version": "1.0.0",
+  "description": "Sovereign wrapper for target · real bindings",
   "type": "module",
-  "description": "MCP server for PlanetScale",
+  "main": "src/index.js",
   "bin": {
-    "planetscale-mcp": "src/server.js"
+    "planetscale-mcp": "src/index.js"
   },
-  "main": "./src/server.js",
   "files": [
-    "src/",
-    "manifest.json",
+    "src",
     "README.md",
     "LICENSE"
   ],
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "@ai-native-solutions/planetscale-sdk": "^1.0.0"
-  },
-  "engines": {
-    "node": ">=18"
-  },
+  "author": "AI-Native Solutions",
   "license": "MIT",
   "repository": {
     "type": "git",
